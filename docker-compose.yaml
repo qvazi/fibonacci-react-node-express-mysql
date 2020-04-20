@@ -1,19 +1,18 @@
 version: "3.7"
 services:
     server:
-        image: docker.pkg.github.com/qvazi/fibonacci-react-node-express-mysql/fibonacci-react-node-express-mysql:latest
+        build: .
         ports:
             - "8080:8080"
         environment: 
             NODE_ENV: production
-            DB_HOST: database
+            MYSQL_HOST: 'database'
+            MYSQL_USER: 'root'
+            MYSQL_PASSWORD: 'rootPassword'
+            MYSQL_DB: 'fibonacci'
     database:
         image: mysql
-        restart: always
-        command: --init-file /data/application/init.sql
-        volumes:
-            - ./server/init.sql:/data/application/init.sql
         environment:
-            MYSQL_ROOT_USER: root
-            MYSQL_ROOT_PASSWORD: 123123
-            MYSQL_DATABASE: testdb
+            MYSQL_ROOT_USER: 'root'
+            MYSQL_ROOT_PASSWORD: 'rootPassword'
+            MYSQL_DATABASE: 'fibonacci'
