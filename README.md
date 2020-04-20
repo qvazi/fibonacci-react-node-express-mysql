@@ -33,7 +33,7 @@ OR
 
 - Clone git repository
 
-    `git clone https://github.com/qvazi/fibonacci-react-node-express-mysql.git`
+    `$ git clone https://github.com/qvazi/fibonacci-react-node-express-mysql.git`
 
 - Rename `/server/app/config/db.config.example.js` to `/server/app/config/db.config.js`
 
