@@ -17,7 +17,7 @@ OR
 
 - Install `npm` dependencies
 
-    `$ cd fibonacci-react-node-express-mysql.git`
+    `$ cd fibonacci-react-node-express-mysql`
     
     `$ npm run install`
 
@@ -34,6 +34,8 @@ OR
 - Clone git repository
 
     `$ git clone https://github.com/qvazi/fibonacci-react-node-express-mysql.git`
+    
+    `$ cd fibonacci-react-node-express-mysql`
 
 - Rename `/server/app/config/db.config.example.js` to `/server/app/config/db.config.js`
 
