@@ -1,0 +1,20 @@
+{
+  "name": "fibonacci-react-node-express-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd client && npm install && cd ../server && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qvazi/fibonacci-react-node-express-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qvazi/fibonacci-react-node-express-mysql/issues"
+  },
+  "homepage": "https://github.com/qvazi/fibonacci-react-node-express-mysql#readme"
+}
